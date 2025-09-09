@@ -39,7 +39,7 @@ sudo apt install python3.10-venv wget
 
 # Upgrade pip and install dependencies
 pip install --upgrade pip
-pip install opencv-contrib-python
+pip install opencv-contrib-python==4.7.0.72
 
 # Navigate to GroundingDINO folder
 cd GroundingDINO
