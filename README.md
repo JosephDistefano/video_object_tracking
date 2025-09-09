@@ -24,7 +24,7 @@ Perfect for dataset creation, research in object tracking, and AI-assisted video
 
 - Ubuntu / Debian-based Linux recommended.
 - Python >= 3.10
-- GPU recommended for GroundingDINO prompt detection (optional).
+- GPU recommended for GroundingDINO prompt detection (optional - all packages are cpu compatible).
 
 ### Setup Instructions
 
