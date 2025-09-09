@@ -97,7 +97,7 @@ During Annotation:
 
 ### Validate Annotations
 ```bash
-python3 cli_validate.py <video_path> [--annotations <file>]
+python3 src/cli_validate.py <video_path> [--annotations <file>]
 ```
 
 Arguments:
@@ -110,7 +110,7 @@ Arguments:
 
 Example:
 ```bash
-python3 validation_cli.py data/sample_1.mp4 --annotations data/sample_1.annotations
+python3 src/validation_cli.py data/sample_1.mp4 --annotations data/sample_1.annotations
 ```
 
 Navigation Keys:
