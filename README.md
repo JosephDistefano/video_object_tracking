@@ -40,7 +40,7 @@ sudo apt install python3.10-venv
 sudo bash setup.sh
 
 # Activate the virtual environment
-source ./my_project_env/bin/activate
+source ./object_tracker/bin/activate
 ```
 
 ###  Project Structure
