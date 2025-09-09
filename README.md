@@ -64,6 +64,7 @@ video_object_tracker/
 ### CLI Usage
 ```bash
 python cli_annotate.py <video_path> [--output <output_file>] [--prompt <text>]
+
 ```
 
 | Argument     | Description                                                               |
@@ -75,7 +76,11 @@ python cli_annotate.py <video_path> [--output <output_file>] [--prompt <text>]
 
 Example:
 ```bash
-python3 src/object_tracker_cli.py data/sample_1.mp4 --prompt "red car"
+python3 src/object_tracker_cli.py data/sample_1.mp4
+```
+Example with GroundingDINO text tracking:
+```bash
+python3 src/object_tracker_cli.py data/sample_1.mp4 --prompt "car"
 ```
 
 During Annotation:
@@ -105,7 +110,7 @@ Arguments:
 
 Example:
 ```bash
-python cli_validate.py videos/car.mp4 --annotations videos/car.annotations
+python validation_cli.py data/sample_1.mp4 --annotations data/sample_1.annotations
 ```
 
 Navigation Keys:
