@@ -30,7 +30,7 @@ Perfect for dataset creation, research in object tracking, and AI-assisted video
 
 ```bash
 # Clone the repository with submodules
-git clone --recurse-submodules https://github.com/JosephDistefano/testing.git
+git clone --recurse-submodules https://github.com/JosephDistefano/video_object_tracking.git
 cd video_object_tracker
 
 # Install Python virtual environment
