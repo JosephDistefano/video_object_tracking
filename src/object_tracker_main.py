@@ -244,17 +244,13 @@ class Object_Tracker:
 
             elif key in [ord('l'), ord('L')]:
                 if self.prompt:
-                    # Re-run prompt detection
+                    self.tracker = cv2.legacy.TrackerBoosting_create()
                     bbox = self.detect_with_prompt(display_frame)
-                    if bbox is not None:
-                        x, y, w, h = bbox
-                        self.tracker.init(display_frame, (x, y, w, h))
-                        self.last_bbox = (x, y, w, h)
-                        self.tracker_initialized = True
-                        self.add_annotation('V', self.last_bbox)
-                    else:
-                        print("Prompt-based detection failed, skipping frame.")
-                        self.add_annotation('S')
+                    x, y, w, h = bbox
+                    self.tracker.init(display_frame, (x, y, w, h))
+                    self.last_bbox = (x, y, w, h)
+                    self.tracker_initialized = True
+                    self.add_annotation('V', self.last_bbox)
                 else:
                     self.draw_bbox(display_frame)
                     self.add_annotation('V', self.last_bbox)
