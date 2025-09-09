@@ -31,7 +31,7 @@ Perfect for dataset creation, research in object tracking, and AI-assisted video
 ```bash
 # Clone the repository with submodules
 git clone --recurse-submodules https://github.com/JosephDistefano/video_object_tracking.git
-cd video_object_tracker
+cd video_object_tracking
 
 # Install Python virtual environment
 sudo apt install python3.10-venv
@@ -85,14 +85,14 @@ python3 src/object_tracker_cli.py data/sample_1.mp4 --prompt "car"
 
 During Annotation: (press enter after boudning box is drawn!)
 
-| Key | Action                                     |
-| --- | ------------------------------------------ |
-| L   | Label manually (or via prompt if provided) |
-| A   | Accept tracker bounding box                |
-| F   | Fix tracker manually (PRESS ENTER!)        |
-| S   | Skip frame                                 |
-| I   | Mark frame as invisible                    |
-| Q   | Quit annotation                            |
+| Key     | Action                                     |
+| ---     | ------------------------------------------ |
+| L       | Label manually (or via prompt if provided) |
+| A       | Accept tracker bounding box                |
+| F       | Fix tracker manually (PRESS ENTER!)        |
+| S       | Skip frame                                 |
+| I       | Mark frame as invisible                    |
+| Q       | Quit annotation                            |
 
 
 ### Validate Annotations
