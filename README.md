@@ -65,7 +65,7 @@ video_object_tracker/
 
 ### CLI Usage
 ```bash
-python cli_annotate.py <video_path> [--output <output_file>] [--prompt <text>]
+python3 cli_annotate.py <video_path> [--output <output_file>] [--prompt <text>]
 
 ```
 
