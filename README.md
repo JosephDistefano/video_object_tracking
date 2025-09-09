@@ -41,6 +41,8 @@ sudo bash setup.sh
 
 # Activate the virtual environment
 source ./object_tracker/bin/activate
+
+pip install opencv-contrib-python==4.7.0.72
 ```
 
 ###  Project Structure
