@@ -214,5 +214,5 @@ Navigation Keys:
 ## Contact
 
 - **Author:** Joseph Distefano  
-- **GitHub:** [https://github.com/JosephDistefano/video_object_tracker](https://github.com/JosephDistefano/video_object_tracker)  
+- **GitHub:** [https://github.com/JosephDistefano/video_object_tracking](https://github.com/JosephDistefano/video_object_tracking)  
 - **Email:** joedistefano789@gmail.com
